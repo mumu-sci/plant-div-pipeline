@@ -1,0 +1,21 @@
+# ---- 分析产出（不入库，可由 data/ + config/ + R/ 完整复现） ----
+results/
+figures/
+cache/
+logs/
+tables/
+code/
+
+# ---- 本地配置（含路径，按机器不同） ----
+config/config.R
+
+# ---- R ----
+.Rhistory
+.RData
+.Rproj.user/
+
+# ---- 编辑器 / 系统 ----
+*.bak.docx
+*.tmp
+Thumbs.db
+Desktop.ini
